@@ -21,6 +21,8 @@
 #ifndef _DRIVES_H__
 #define _DRIVES_H__
 
+#include <limits>
+
 #include <vector>
 #include <sys/types.h>
 #include "dos_system.h"

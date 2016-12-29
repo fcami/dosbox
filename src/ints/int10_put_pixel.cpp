@@ -21,6 +21,7 @@
 #include "inout.h"
 #include "int10.h"
 
+#pragma GCC diagnostic ignored "-Wnarrowing"
 static Bit8u cga_masks[4]={~192,~48,~12,~3};
 static Bit8u cga_masks2[8]={~128,~64,~32,~16,~8,~4,~2,~1};
 void INT10_PutPixel(Bit16u x,Bit16u y,Bit8u page,Bit8u color) {

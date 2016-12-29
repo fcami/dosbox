@@ -28,6 +28,7 @@
 #include "setup.h"
 #include "pic.h"
 #include "dma.h"
+#include <string.h>
 
 #define DAC_CLOCK 3570000
 #define MAX_OUTPUT 0x7fff

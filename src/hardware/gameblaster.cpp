@@ -16,6 +16,7 @@
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
 
+#include <cstring>
 #include <math.h>
 #include "dosbox.h"
 #include "inout.h"

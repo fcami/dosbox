@@ -19,6 +19,7 @@
 /* $Id: cpu.cpp,v 1.79 2006/02/26 16:11:00 qbix79 Exp $ */
 
 #include <assert.h>
+#include "stddef.h"
 #include "dosbox.h"
 #include "cpu.h"
 #include "memory.h"

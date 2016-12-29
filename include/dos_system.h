@@ -21,6 +21,9 @@
 #ifndef DOSBOX_DOS_SYSTEM_H
 #define DOSBOX_DOS_SYSTEM_H
 
+#include "stddef.h"
+
+#include <cstring> 
 
 #include <vector>
 #ifndef DOSBOX_DOSBOX_H

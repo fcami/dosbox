@@ -58,6 +58,8 @@ Revision History:
 		verify volume of the FM part on the Y8950
 */
 
+#pragma GCC diagnostic ignored "-Wnarrowing"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
